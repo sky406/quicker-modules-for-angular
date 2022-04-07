@@ -5,7 +5,7 @@ export function compareDate(date:Date,compdate:Date = new Date):dm_result
 {  
     //this compares two dates and returns an object that containd the differences seperated by manitude from year to millisecond
     // most of this code just compares numbers it's not as complicated as it sounds 
-    // note this does not give all values accurate to the 
+    // the values are fully accurate only when they are put together
     if(date == compdate)
     {
         return{

@@ -5,7 +5,7 @@ function compareDate(date, compdate) {
     if (compdate === void 0) { compdate = new Date; }
     //this compares two dates and returns an object that containd the differences seperated by manitude from year to millisecond
     // most of this code just compares numbers it's not as complicated as it sounds 
-    // note this does not give all values accurate to the 
+    // the values are fully accurate only when they are put together
     if (date == compdate) {
         return {
             before: false,
