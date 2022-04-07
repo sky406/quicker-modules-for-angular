@@ -20,7 +20,7 @@ function compareDate(date, compdate) {
         };
     }
     else {
-        // math.abs() returns the absolute value, so there there is nerver a negative number
+        // math.abs() returns the absolute value, so there there is never a negative number
         return {
             before: date < compdate,
             year_dif: Math.abs(date.getFullYear() - compdate.getFullYear()),
